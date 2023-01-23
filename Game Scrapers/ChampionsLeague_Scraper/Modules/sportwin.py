@@ -13,7 +13,7 @@ class SportwinScraper:
         self.driver = driver
 
         # Creates a connection with the database
-        self.con = sqlite3.connect("ChamoinsLeague.db")
+        self.con = sqlite3.connect("ChampoinsLeague.db")
 
         # Creates a cursor to operate in the database
         self.cur = self.con.cursor()
