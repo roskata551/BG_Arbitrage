@@ -13,7 +13,7 @@ class Bet365Scraper:
         self.driver = driver
 
         # Creates a connection with the database
-        self.con = sqlite3.connect("../NBA.db")
+        self.con = sqlite3.connect("NBA.db")
 
         # Creates a cursor to operate in the database
         self.cur = self.con.cursor()
