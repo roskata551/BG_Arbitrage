@@ -128,7 +128,7 @@ class GameSorting:
         }
 
         # Opens the excel file
-        workbook = xlsxwriter.Workbook('../NBA SpreadSheet.xlsx')
+        workbook = xlsxwriter.Workbook('NBA SpreadSheet.xlsx')
         worksheet = workbook.add_worksheet()
 
         # Variable for the row in wich to write on
