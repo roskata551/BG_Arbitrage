@@ -13,9 +13,9 @@ options.add_argument("start-maximized")
 
 driver = uc.Chrome(options=options)
 
-# bet365_scraper.Bet365Scraper(driver)
-# betano_scraper.BetanoScraper(driver)
-# bwin_scraper.BwinScraper(driver)
+bet365_scraper.Bet365Scraper(driver)
+betano_scraper.BetanoScraper(driver)
+bwin_scraper.BwinScraper(driver)
 efbet_scraper.EfbetScraper(driver)
 sesame_scraper.SesameScraper(driver)
 
