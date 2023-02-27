@@ -244,7 +244,10 @@ class BwinScraper:
 
             team_names = self.get_team_names()
 
-            total_score_odds = self.get_total_score_odds()
+            try:
+                total_score_odds = self.get_total_score_odds()
+            except:
+                continue
 
             dic = self.form_data(total_score_odds)
 
